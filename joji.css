@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url("joji2.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+
+.facebook-button {
+    background: url('fblogo.png') left center no-repeat;
+    padding-left: 15px;
+  }
+
+  body {
+    opacity: 1;
+    transition: 0.4s opacity;
+  }
+  
+  body.fade {
+      opacity: 0;
+      transition: none;
+  }
+
+  .button {
+    background-color: rgb(76, 135, 175);
+    border: none;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+
+div.a {
+    text-align: center;
+}
+
+div.b {
+    text-align: left;
+}
+
+div.c {
+    text-align: right;
+}
+
+div.c {
+    text-align: justify;
+}
+
+.button1 {border-radius: 50%;}
+
+/* icon for social media*/
+ ul {
+    list-style: disc;
+    margin: 0 0 1.5em 0;
+    padding-left: 1em;
+}
+
+    ul li {
+        padding-left: 0.5em;
+    }
+
+    ul.alt {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        ul.alt li {
+            border-top: solid 1px #c8cccf;
+            padding: 0.5em 0;
+        }
+
+            ul.alt li:first-child {
+                border-top: 0;
+                padding-top: 0;
+            }
+
+    ul.icons {
+        cursor: default;
+        list-style: none;
+        padding-left: 0;
+        margin-top: -0.675em;
+    }
+
+        ul.icons li {
+            display: inline-block;
+            padding: 0.675em 0.5em;
+        }
+
+            ul.icons li a {
+                text-decoration: none;
+                position: relative;
+                display: block;
+                width: 3.75em;
+                height: 3.75em;
+                border-radius: 100%;
+                border: solid 1px #c8cccf;
+                line-height: 3.75em;
+                overflow: hidden;
+                text-align: center;
+                text-indent: 3.75em;
+                white-space: nowrap;
+            }
+
+                ul.icons li a:before {
+                    -moz-osx-font-smoothing: grayscale;
+                    -webkit-font-smoothing: antialiased;
+                    font-family: FontAwesome;
+                    font-style: normal;
+                    font-weight: normal;
+                    text-transform: none !important;
+                }
+
+                ul.icons li a:before {
+                    color: #ffffff;
+                    text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
+                }
+
+                ul.icons li a:hover:before {
+                    text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+                }
+
+                ul.icons li a:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: inherit;
+                    height: inherit;
+                    font-size: 1.85rem;
+    line-height: inherit;
+    text-align: center;
+    text-indent: 0;
+}
+
+ul.icons li a:hover {
+    border-color: #ff7496;
+}
+
+@media screen and (max-width: 480px) {
+    ul.icons li a:before {
+        font-size: 1.5rem;
+    }
+
+}
+
+ul.actions {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.actions li {
+    display: inline-block;
+    padding: 0 0.75em 0 0;
+    vertical-align: middle;
+}
+
+ul.actions li:last-child {
+    padding-right: 0;
+}
