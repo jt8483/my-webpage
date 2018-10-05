@@ -1,12 +1,15 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
+
 div.a {
     /* This is where your wrapper code would go */
+    position: relative;
+    vertical-align: -webkit-baseline-middle
     text-align: center;
-    width: 90%;
-    height: 90%;
-    background-color: #AAAAAA;
+    width: 34%;
+    height: 68%;
+    background-color: white;
 }
 
 .item{
