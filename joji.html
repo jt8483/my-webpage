@@ -1,38 +1,43 @@
 <html>
    <head>
-      <link href="animate.css" rel="stylesheet" type="text/css">
+      <link href="static/animate.css" rel="stylesheet" type="text/css">
+      <link href="static/joji2.css" rel="stylesheet" type="text/css">
       <link href="joji.css" rel="stylesheet" type="text/css">
-      <link href="joji2.css" rel="stylesheet" type="text/css">
-      <!-- I commented this out for good reasons, okay? You probably don't want to un-comment this -->
-      <link href="gradient.css" rel="stylesheet" type="text/css">
-     
    </head>
    <body>
-      <div class="a">
-         
-         <h1  text-align: center: style="color:teal;">
-            <big>
-               <div class= "animated bounceInDown"><h2>Joji Thomas</h2>
-               </div>
-            </big>
-         </h1>
+      <div class="wrapper">
+         <big>
+            <div>
+               <h1>Joji Thomas</h1>
+            </div>
+         </big>
+         <center>
+            <img src="static/joji.jpg" alt="Error  displaying joji.jpg">
+         </center>
          <p style="font-family:courier; color:blue;">
             <big>When will this website actually be cool?</big>
          </p>
          <p2 style="color:teal;">
             <p>
                <big>
-                  <div class= "animated bounceInDown"> CS MAJOR.ENTHUSIAST.STUDENT.</div>
+                  <div>CS MAJOR.ENTHUSIAST.STUDENT.</div>
                </big>
             </p>
          </p2>
-         <footer>
-            <ul class="icons animated bounceInDown">
+         <div>
+            <ul class="icons">
                <li><a href="https://twitter.com/therealsnickz" class="fa-twitter">Twitter</a></li>
                <li><a href="https://www.instagram.com/jsnickz/?hl=en" class="fa-instagram">Instagram</a></li>
                <li><a href="https://www.facebook.com/jojithomas18" class="fa-facebook">Facebook</a></li>
                <li><a href="https://github.com/jthomas2234" class="fa-github">GitHub</a></li>
             </ul>
+         </div>
+         <footer>
+               <form action="input.php" method="post">
+                     <div>Leave your suggestions below:</div><br>
+                     <textarea name="suggestions" id="sug" cols="30" rows="5"></textarea>
+                     <p><input type="submit" value="Submit"></p>
+               </form>
          </footer>
       </div>
    </body>
