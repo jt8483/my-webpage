@@ -12,10 +12,10 @@ div.wrapper {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
-    box-shadow: 5px 5px 1px 1px #666666;
+    background-color: grey;
+    /*box-shadow: 5px 5px 1px 1px #666666;*/
     margin: 0;
-    /* 
+    /*
     syntax
     https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
     */
@@ -23,8 +23,8 @@ div.wrapper {
 
 .joji-image {
     max-width: 90% !important;
-    height: auto; 
-    max-height: 30%;   
+    height: auto;
+    max-height: 30%;
 }
 
 textarea {
@@ -125,19 +125,6 @@ body.fade {
 		background-position: 0% 50%
 	}
 }
-
-/* .button {
-    background-color: rgb(76, 135, 175);
-    border: none;
-    color: blue;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-} */
-
 
 div.b {
     text-align: left;
@@ -261,4 +248,40 @@ ul.actions li {
 
 ul.actions li:last-child {
     padding-right: 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
 }
