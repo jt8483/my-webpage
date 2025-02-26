@@ -1,4 +1,16 @@
+<!-- <div class="scanlines"></div>
+
+<div class="intro-wrap">
+  <div class="noise"></div>
+  <div class="noise noise-moving"></div>
+
+  <div class="play" data-splitting>PLAY</div>
+  <div class="time">--:--</div>
+  <div class="recordSpeed">SLP 0:00:00</div>
+</div> -->
+
 <html>
+
 <head>
   <body style="background-color: grey;">
   </body>
@@ -7,11 +19,12 @@
     <button class="tablinks" onclick="description(event, 'About')">About</button>
     <button class="tablinks" onclick="description(event, 'Projects')">Projects</button>
     <button class="tablinks" onclick="description(event, 'Socials')">Socials</button>
+    <button class="tablinks" onclick="description(event, 'Socials')">Resume</button>
   </div>
 
   <div id="About" class="tabcontent">
     <h3>About</h3>
-    <p><b>My name is Joji I'm currently a Computer Science Student at Cal State Fullerton</b></p>
+    <p><b>My name is Joji I'm new grad Computer Science Student from Cal State Fullerton working as a operations manager at Amazon</b></p>
   </div>
 
   <div id="Projects" class="tabcontent">
@@ -20,15 +33,26 @@
     <h><b> this project was dedicated to GUI development</b></h>
     <h><b> all created in QT creator</b></h>
   </div>
+  
+  <div id="Resume" class="tabcontent">
+    <h4>Resume</h4>
+    <p1>----------------------------------------------------------------------</p1><br></br>
+      <body>
+        <h1>Joji's Resume</h1>
+        <iframe class="pdf" 
+                src= "https://docs.google.com/document/d/184ZJePpOnBgQhQumUxl7tALbqmCtVgiuiMi-tDw-mCc/edit?usp=sharing"
+                width = "800" height="500">
+        </iframe>
+  </div>
 
   <div id="Socials" class="tabcontent">
     <h3>Socials</h3>
     <h>These are some of the social meadia sites im on</h><br></br>
     <p1>----------------------------------------------------------------------</p1><br></br>
-    <a href="https://twitter.com/joji_2234">• Twitter</a><br></br>
-    <a href="https://www.instagram.com/jsnickz/?hl=en">• Instagram</a><br></br>
-    <p1>• matrix:@joji:typokign.com</p1>
+    <a href="https://www.instagram.com/evo.joji/?hl=en">• Instagram</a><br></br>
   </div>
+
+
 
 
 
@@ -48,6 +72,9 @@
     document.getElementById(tabInfo).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+//   console.clear();
+// Splitting();
   </script>
 </head>
 </html>
